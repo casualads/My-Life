@@ -1,0 +1,18 @@
+# kilo / ( boy * boy)
+print("""...................
+Vücut Kitle İndeksi
+...................""")
+boy = float(input("Boyunuzu Giriniz: "))
+kilo = float(input("Kilonuzu Giriniz: "))
+vki =  kilo / (boy * boy)
+
+print(vki)
+
+if (vki < 18.5):
+    print("Zayıf")
+elif (vki >= 18.5 and vki < 25):
+    print("Normal")
+elif (vki >= 25 and vki < 30):
+    print("Fazla Kilolu")
+else:
+    print("Obez")
